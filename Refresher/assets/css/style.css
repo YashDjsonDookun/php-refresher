@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+    margin-left: 50px;
+}
+
+.displayTable {
+    border: solid 1px #000;
+}
+
+.table {
+    float: left;
+    display: flex;
+    border: solid 1px #000;
+    justify-content: space-between;
+    border: solid 3px #000;
+}
+
+.editDelete {
+    border: solid 2px #000;
+}
+
+.tableRows div {
+    border: solid 3px #000;
+    padding: 24px 159px 24px 94px;
+}
+
+.div-table {
+    display: table;
+    width: auto;
+    background-color: #eee;
+    border-spacing: 5px;
+}
+
+.tableRows {
+    display: table-row;
+    width: auto;
+    clear: both;
+    font-size: 2em;
+}
+
+.tableTitleRow {
+    float: left;
+    display: table-column;
+    width: 200px;
+}
+
+button.delete,
+button.btnEdit {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    color: #005daf;
+}
+
+a.editLink {
+    text-decoration: underline;
+}
+
+.tableCol div {
+    padding: 24px 159px 24px 94px;
+    font-weight: bolder;
+    font-size: 2em;
+    border: solid;
+}
+
+.table {
+    min-width: 1303px;
+    border: none;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 35px;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 50px;
+    color: #005daf;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.top * {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.pageTitle h1 {
+    margin-bottom: 31px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 55vh;
+    height: 8vh;
+    font-size: 33px;
+}
+
+input[type="submit"] {
+    width: 24vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005daf;
+    color: #fff;
+}
+
+::placeholder {
+    color: grey;
+}
